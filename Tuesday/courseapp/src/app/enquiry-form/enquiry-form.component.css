@@ -1,0 +1,19 @@
+.form{
+    width: 95%;
+    padding: 10px;
+    border: 2px dashed lightgreen;
+    box-sizing: border-box;
+    margin: 10px;
+    height: 400px;
+}
+
+.field{
+    
+}
+
+.form-control{
+
+}
+.validation{
+
+}

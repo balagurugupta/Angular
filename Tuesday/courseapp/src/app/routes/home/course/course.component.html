@@ -1,0 +1,21 @@
+<a routerLink = "/cdetails/{{current.name}}">
+
+<div class="course">
+  <div class="coursepic">
+    <img src="../../../../assets/images/{{current.image}}">
+  </div>
+
+  <h3>{{current.name}}</h3>
+  <div class="price">Price:{{current.price | currency:'INR':true}}
+
+  </div>
+  <div class="offer">{{temp | offercode:current.price}}
+
+  </div>
+  <div class="description">Description:{{current.description}}
+
+  </div>
+
+</div>
+
+</a>

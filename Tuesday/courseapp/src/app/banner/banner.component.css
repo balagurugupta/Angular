@@ -1,0 +1,8 @@
+.banner{
+    width: 95%;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px dashed darkcyan;
+    height: 200px;
+}
